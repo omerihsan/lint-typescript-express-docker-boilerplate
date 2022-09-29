@@ -1,7 +1,11 @@
-const datAlOl = 123;
+import express from 'express';
+const app = express();
+const port = 3000;
 
-function abc (d: number): void {
-  d += datAlOl;
-}
+app.get('/', (req, res) => {
+  res.send('123123Hello World!123');
+});
 
-abc(2);
+app.listen(port, () => {
+  return console.log(`123Express is listening at http://localhost:${port}`);
+});
