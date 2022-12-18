@@ -9,11 +9,11 @@ export default class ExpressApplication {
     this.app = express();
   }
 
-  private static test(a: string): void {
+  private test(a: string): void {
     console.log("abc", a);
   }
 
-  private static test1(): void {
+  private test1(): void {
     console.log("abc");
   }
 }

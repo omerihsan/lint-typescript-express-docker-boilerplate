@@ -14,9 +14,33 @@
     "project": "./tsconfig.eslint.json"
   },
   "rules": {
-    "linebreak-style": "off",
-    "no-console": "off",
+    "no-duplicate-imports": "error",
+    "curly": "error",
+    "default-case": "error",
+    "default-case-last": "error",
+    "default-param-last": "error",
+    "no-eval": "error",
+    "no-extra-semi": "error",
+    "no-floating-decimal": "error",
+    "no-lone-blocks": "error",
+    "no-lonely-if": "error",
+    "no-multi-assign": "error",
+    "no-new": "error",
+    "no-new-object": "error",
+    "require-await": "error",
+    "no-useless-concat": "warn",
+    "no-useless-return": "error",
+    "no-return-assign": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
     "@typescript-eslint/explicit-function-return-type": "error",
-    "@typescript-eslint/no-explicit-any": "error"
+    "@typescript-eslint/no-explicit-any": "error",
+    "no-console": "off",
+
+    //"class-methods-use-this": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "consistent-return": ["error", { "treatUndefinedAsUnspecified": false }],
+    "no-implicit-coercion": ["error", { "boolean": true, "number": true, "string": true }],
+    "linebreak-style": "off"
   }
 }
