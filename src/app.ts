@@ -1,4 +1,4 @@
-import express from 'express';
+import express from "express";
 
 export default class ExpressApplication {
   private readonly app: express.Application;
