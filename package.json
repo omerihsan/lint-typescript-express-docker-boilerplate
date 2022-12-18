@@ -8,7 +8,8 @@
     "start": "ts-node src/server.ts",
     "dev": "nodemon",
     "build": "tsc",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "lint": "npx eslint . --ext .ts"
   },
   "author": "",
   "license": "ISC",
