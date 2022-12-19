@@ -13,6 +13,7 @@ app.listen(port, () => console.log(`123Express is listening at http://localhost:
 //   Return console.log(`123Express is listening at http://localhost:${port}`);
 // });
 
+//some comment
 function doSomething(bar: number): number {
   //const foo: number = 3 + 4 + bar + 2;
   return (foo = bar + 3);

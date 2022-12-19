@@ -35,6 +35,8 @@
     "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/no-explicit-any": "error",
     "no-console": "off",
+    //"func-call-spacing": ["error", "always"],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
 
     //"class-methods-use-this": "error",
     "no-unused-vars": "off",
