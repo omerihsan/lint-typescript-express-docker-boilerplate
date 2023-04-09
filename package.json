@@ -11,7 +11,7 @@
     "format": "prettier -w .",
     "lint": "npx eslint . --ext .ts"
   },
-  "author": "",
+  "author": "Omer Ihsan <momerihsan@outlook.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"

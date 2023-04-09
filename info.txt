@@ -1,0 +1,4 @@
+//  config 2 - static
+npm i express
+npm install --save-dev typescript @types/node ts-node nodemon @types/express
+npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint eslint-plugin-import eslint-config-prettier eslint-plugin-prettier prettier
